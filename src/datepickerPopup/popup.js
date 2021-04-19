@@ -249,7 +249,6 @@ function($scope, $element, $attrs, $compile, $log, $parse, $window, $document, $
     evt.stopPropagation();
 
     $scope.isOpen = false;
-    $element[0].focus();
   };
 
   $scope.disabled = angular.isDefined($attrs.disabled) || false;
